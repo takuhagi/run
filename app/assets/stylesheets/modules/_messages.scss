@@ -54,18 +54,23 @@
         color: #ffffff bold;
         overflow:scroll;
         .group{
+          color: #ffffff bold;
           &__name{
             padding:20px 5px 20px 20px;
             font-size: 15px;
+            font-size: 15px #ffffff;
             width:220px;
             height:15px;
             }
-
           &__message{
             padding:0px 20px 40px 20px;
-            font-size:11px;
+            font-size:11px #ffffff;
             width:220px;
             height:10px;
+          }
+          a{
+            color:#ffffff;
+            text-decoration: none;
           }
          }
       }
