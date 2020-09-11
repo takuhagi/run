@@ -6,14 +6,14 @@
 }
 .side_bar{
   width:300px;
-  background-color: #253141;
+  background-color: #0000CD	;
   color:#ffffff;
   justify-content: center;
   align-items: center;
 
     
     &__user__name{
-      background-color:#253141 ;
+      background-color:#0000CD;
       height:100px;
       font-size: 16px;
       padding: 0px 20px;
@@ -23,7 +23,7 @@
     
 
       .side_bar__list{
-    background-color:#253141;
+    background-color:#0000CD;
     width: 260px;
     height: 20px;
     display: flex;
@@ -48,7 +48,7 @@
       }
     }
       &__group__list{
-        background-color:#2f3e51 ;
+        background-color:#136FFF ;
         height:calc(100vh - 100px);
         justify-content: flex-start;
         color: #ffffff bold;
@@ -92,7 +92,7 @@
           position: relative;
             &__name{
               font-size: 20px;
-              color: #333333;
+              color: black;
               margin-top:35px;
             }
             &__memberlist{
@@ -149,7 +149,7 @@
       }
 
       .main_chat__message__form{
-        background-color:#d2d2d2;
+        background-color:black;
         height:90px;
         padding:20px 50px 20px 40px;
         display: flex;
