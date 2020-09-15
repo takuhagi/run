@@ -15,7 +15,7 @@
     = render @messages
    
   .main_chat__message__form
-    = form_with model: [@group, @message], html: {class: "main_chat__message__form__1"}, local: true do |f|
+    = form_with model: [@group, @message], html: {class: "main_chat__message__form__parent"}, local: true do |f|
       .main_chat__message__form__parent
         .main_chat__message__form__child
           = f.text_field :content, class: 'main_chat__message__form__child__1', placeholder: 'type a message'

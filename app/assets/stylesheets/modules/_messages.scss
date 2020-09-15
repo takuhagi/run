@@ -20,7 +20,7 @@
       justify-content: center;
       display: flex;
       align-items: center;
-    
+      
 
       .side_bar__list{
     background-color:#0000CD;
@@ -34,6 +34,8 @@
         display: flex;
         justify-content: flex-start;
         color:#ffffff;
+        
+    
       }
       .side_bar__icon{
         width: 60px;
@@ -48,11 +50,13 @@
       }
     }
       &__group__list{
-        background-color:#136FFF ;
+        background-color:#ffffff;
         height:calc(100vh - 100px);
         justify-content: flex-start;
         color: #ffffff bold;
         overflow:scroll;
+        background-image : url(https://t3.ftcdn.net/jpg/01/86/54/16/240_F_186541625_49LM3W5rGdrkrZJTPxPVLa8ih9u6D808.jpg);
+        background-size: cover;
         .group{
           color: #ffffff bold;
           &__name{
@@ -121,6 +125,8 @@
           height:calc(100vh - 190px);
           padding:35px 40px 0;
           overflow:scroll;
+          background-image : url(https://kabekin.com/uploads/converted/15/08/30/1757594672-1600x1200x3894df4030fbf55ecfed89-j2Yv-1600x1200-MM-100.jpg);
+          background-size: cover;
           .message__box{
             margin-bottom:46px;
           }
@@ -154,6 +160,9 @@
         padding:20px 50px 20px 40px;
         display: flex;
         align-items: center;
+        background-image : url(https://kabekin.com/uploads/converted/15/08/30/1757594672-1600x1200x3894df4030fbf55ecfed89-j2Yv-1600x1200-MM-100.jpg);
+        background-size: cover;
+    
         .main_chat__message__form__1{
           width: 100%;
         }
@@ -161,6 +170,8 @@
           &__parent{
              display:flex;
              justify-content:space-around;
+             width:100%;
+             height:50px;
              
             .main_chat__message__form__child{
                 width:100%;
@@ -182,10 +193,10 @@
                   right:10px;
                   top: 12px;
                   }
-                    .image__child{
-                    color:#000;
-                    display: none;
-                    }
+                  .image__child{
+                  color:#000;
+                  display: none;
+                  }
                   
                 }
             }         
