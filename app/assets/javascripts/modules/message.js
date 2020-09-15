@@ -15,7 +15,7 @@ $(function(){
             <p class="message__content">
               ${message.content}
             </p>
-            <img class="Message__image" src="${message.image}">
+            <img class="message__image" src="${message.image}">
           </div>
         </div>`
       return html;
@@ -40,8 +40,8 @@ $(function(){
     };
   }
 
-  $('.main_chat__message__form__1').on('submit', function(e){
-    console.log(2)
+  $('.main_chat__message__form__parent').on('submit', function(e){
+    console.log()
     e.preventDefault();
     let formData = new FormData(this);
     let url = $(this).attr('action');
@@ -56,7 +56,7 @@ $(function(){
     .done(function(data){
       let html = buildHTML(data);
       $('.main_chat__message__list').append(html);      
-      $('.main_chat__message__form__1')[0].reset();
+      $('.main_chat__message__form__parent')[0].reset();
       $('.main_chat__message__list').animate({ scrollTop: $('.main_chat__message__list')[0].scrollHeight});
       $('.message__btn').prop("disabled", false);
     })
