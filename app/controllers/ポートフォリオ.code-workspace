@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../chat-space"
+		},
+		{
+			"path": "../../../../fleamarket_sample_80d"
+		}
+	],
+	"settings": {}
+}

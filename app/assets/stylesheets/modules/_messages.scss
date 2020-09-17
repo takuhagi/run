@@ -35,18 +35,26 @@
         justify-content: flex-start;
         color:#ffffff;
         
-    
       }
       .side_bar__icon{
         width: 60px;
         display: flex;
         justify-content: flex-end;
+        color: #ffffff;
        .edit{ 
+        color: #ffffff;
         margin: 0px 0px 0px 5px;
        }
        .fas{
         color: #ffffff;
+        margin: 0px 0px 0px 5px;
+        
        }
+       .running{
+        color: #ffffff;
+        margin: 0px 0px 0px 5px;
+       }
+
       }
     }
       &__group__list{
@@ -125,7 +133,7 @@
           height:calc(100vh - 190px);
           padding:35px 40px 0;
           overflow:scroll;
-          background-image : url(https://kabekin.com/uploads/converted/15/08/30/1757594672-1600x1200x3894df4030fbf55ecfed89-j2Yv-1600x1200-MM-100.jpg);
+          background-image : url(https://cdn.pixabay.com/photo/2012/04/18/03/11/boy-36727_1280.png);
           background-size: cover;
           .message__box{
             margin-bottom:46px;

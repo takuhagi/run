@@ -9,6 +9,8 @@
         = link_to "#", class:"edit" do
           = link_to edit_user_path(current_user) do
             = icon('fas','cog')
+        = link_to new_tweet_path(current_user) do
+          = icon('fas','running')      
             
   .side_bar__group__list
     - current_user.groups.each do |group|

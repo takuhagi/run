@@ -71,7 +71,7 @@ $(function(){
       }
     })
     .fail(function() {
-      alert('error');
+      // alert('error');
     });
   };
   setInterval(reloadMessages, 7000);
