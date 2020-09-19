@@ -1,8 +1,8 @@
 .contents.row
   - @tweets.each do |tweet|
-    .content_post{style: "background-image: url(#{tweet.image});"}
+    .content.post{style: "background-image: url(#{tweet.image});"}
       .more
-        %span= image_tag 'arrow_top.png'
+        %span= image_tag ''
         %ul.more_list
           %li
             = link_to '詳細', tweet_path(tweet.id), method: :get
@@ -10,6 +10,8 @@
             = link_to '編集', edit_tweet_path(tweet.id), method: :get
           %li
             = link_to '削除', tweet_path(tweet.id), method: :delete
+          %li
+            = link_to 'チャットに戻る', root_path(tweet.id), method: :get
       %p= tweet.text
       %span.name
         = tweet.name

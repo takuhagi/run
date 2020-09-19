@@ -2,7 +2,7 @@
   .container
     %h3 編集する
     = form_with(model: @tweet, local: true) do |form|
-      = form.text_field :name, placeholder: "Nickname"
-      = form.text_field :image, placeholder: "Image Url"
-      = form.text_area :text, placeholder: "place distance time", rows: "20"
-      = form.submit "SEND"
+      = form.text_field :name, placeholder: "名前"
+      = form.text_field :image, placeholder: "画像URL"
+      = form.text_area :text, placeholder: "場所　距離　時間　感想　etc..", rows: "20"
+      = form.submit "送信"

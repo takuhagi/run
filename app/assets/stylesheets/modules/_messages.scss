@@ -6,14 +6,14 @@
 }
 .side_bar{
   width:300px;
-  background-color: #0000CD	;
+  background-color: greenyellow;
   color:#ffffff;
   justify-content: center;
   align-items: center;
 
     
     &__user__name{
-      background-color:#0000CD;
+      background-color:greenyellow;
       height:100px;
       font-size: 16px;
       padding: 0px 20px;
@@ -23,7 +23,7 @@
       
 
       .side_bar__list{
-    background-color:#0000CD;
+    background-color :greenyellow;
     width: 260px;
     height: 20px;
     display: flex;
@@ -33,7 +33,7 @@
       .side_bar__list__name{
         display: flex;
         justify-content: flex-start;
-        color:#ffffff;
+        color:black;
         
       }
       .side_bar__icon{
@@ -63,25 +63,28 @@
         justify-content: flex-start;
         color: #ffffff bold;
         overflow:scroll;
-        background-image : url(https://t3.ftcdn.net/jpg/01/86/54/16/240_F_186541625_49LM3W5rGdrkrZJTPxPVLa8ih9u6D808.jpg);
-        background-size: cover;
+        
         .group{
-          color: #ffffff bold;
+          color: black bold;
           &__name{
             padding:20px 5px 20px 20px;
-            font-size: 15px #ffffff;
+            font-size: 15px black;
             width:220px;
             height:15px;
+            text-decoration: 1px solid #38f075;
+            
             }
           &__message{
             padding:0px 20px 40px 20px;
-            font-size:11px #ffffff;
+            font-size:11px black;
             width:220px;
             height:10px;
+            text-decoration: 1px solid #38f075;
           }
           a{
-            color:#ffffff;
+            color:#38f075;
             text-decoration: none;
+            
           }
          }
       }
@@ -121,10 +124,10 @@
             padding:0px 20px;
             height:40px;
             font-size: 16px;
-            border:1px solid #38aef0;
+            border:1px solid #38f075;
             .main_chat__group__edit{
               text-decoration:none;
-              color:#38aef0;
+              color:#38f075;
             }
         }
     }
@@ -163,14 +166,12 @@
       }
 
       .main_chat__message__form{
-        background-color:black;
+        background-color:greenyellow;
         height:90px;
         padding:20px 50px 20px 40px;
         display: flex;
         align-items: center;
-        background-image : url(https://kabekin.com/uploads/converted/15/08/30/1757594672-1600x1200x3894df4030fbf55ecfed89-j2Yv-1600x1200-MM-100.jpg);
-        background-size: cover;
-    
+        
         .main_chat__message__form__1{
           width: 100%;
         }
@@ -209,13 +210,13 @@
                 }
             }         
               .message__btn{
-                background-color: #38aef0;
+                background-color: #38f075;
                 color:#fff;
                 font-size:16px;
                 height:50px;
                 margin-left:15px;
                 padding:0 30px;
-                border:solid 1px #38aef0;
+                border:solid 1px #38f075;
                 display: table-cell;
                 vertical-align: middle;
                 line-height: 50px;

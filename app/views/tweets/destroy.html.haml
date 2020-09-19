@@ -1,4 +1,5 @@
 .contents.row
   .success
     %h3 削除が完了しました。
-    %a.btn{href: "/"} 投稿一覧へ戻る
+    = link_to tweets_path, method: :get do
+      投稿一覧に戻る

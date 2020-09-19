@@ -7,9 +7,9 @@
         = link_to new_group_path, class:"edit" do
           = icon('fas','edit')
         = link_to "#", class:"edit" do
-          = link_to edit_user_path(current_user) do
+          = link_to edit_user_path(current_user.id) do
             = icon('fas','cog')
-        = link_to new_tweet_path(current_user) do
+        = link_to new_tweet_path(current_user.id) do
           = icon('fas','running')      
             
   .side_bar__group__list
