@@ -124,10 +124,10 @@
             padding:0px 20px;
             height:40px;
             font-size: 16px;
-            border:1px solid #38f075;
+            border:1px solid  #ffa500;
             .main_chat__group__edit{
               text-decoration:none;
-              color:#38f075;
+              color: #ffa500;
             }
         }
     }
@@ -136,7 +136,7 @@
           height:calc(100vh - 190px);
           padding:35px 40px 0;
           overflow:scroll;
-          background-image : url(https://cdn.pixabay.com/photo/2012/04/18/03/11/boy-36727_1280.png);
+          background-image : url(https://images.unsplash.com/reserve/7MWItPwYTzOaKwG6SYLl_O14A0436.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
           background-size: cover;
           .message__box{
             margin-bottom:46px;
@@ -145,12 +145,12 @@
                 display: flex;
               
                 &__user__name{
-                  color:#333333; 
+                  color:#ffa500; 
                   font-size: 16px;
                   font-weight:bold;
                 }
                 &__date{
-                  color:#999999; 
+                  color:#ffd700; 
                   font-size: 12px;
                   padding-left: 10px;
                 }
@@ -159,7 +159,7 @@
             margin-top: 12px;
           
             &__content{
-              color:#434a54;
+              color:#ffa500;
               font-size: 14px;
             }
           } 
@@ -188,7 +188,7 @@
                 position: relative;
                 &__1{
                   display: block;
-                  color:#dddddd;  
+                  color:black;  
                   background-color: #ffffff;
                   width: 100%;
                   height: 50px;
@@ -200,7 +200,8 @@
                   position:absolute;
                   height:50px;
                   right:10px;
-                  top: 12px;
+                  top: 8px;
+                  font-size: 2em;
                   }
                   .image__child{
                   color:#000;
@@ -210,13 +211,13 @@
                 }
             }         
               .message__btn{
-                background-color: #38f075;
+                background-color: #ffa500;
                 color:#fff;
                 font-size:16px;
                 height:50px;
                 margin-left:15px;
                 padding:0 30px;
-                border:solid 1px #38f075;
+                border:solid 1px #ffa500;
                 display: table-cell;
                 vertical-align: middle;
                 line-height: 50px;
