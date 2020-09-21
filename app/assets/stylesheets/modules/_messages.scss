@@ -136,7 +136,7 @@
           height:calc(100vh - 190px);
           padding:35px 40px 0;
           overflow:scroll;
-          background-image : url(https://images.unsplash.com/reserve/7MWItPwYTzOaKwG6SYLl_O14A0436.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+          background-image : url(https://images.pexels.com/photos/694587/pexels-photo-694587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
           background-size: cover;
           .message__box{
             margin-bottom:46px;
@@ -145,12 +145,12 @@
                 display: flex;
               
                 &__user__name{
-                  color:#ffa500; 
+                  color:black; 
                   font-size: 16px;
                   font-weight:bold;
                 }
                 &__date{
-                  color:#ffd700; 
+                  color:black; 
                   font-size: 12px;
                   padding-left: 10px;
                 }
@@ -159,7 +159,7 @@
             margin-top: 12px;
           
             &__content{
-              color:#ffa500;
+              color:black;
               font-size: 14px;
             }
           } 

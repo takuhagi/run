@@ -64,3 +64,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'rspec-rails', '~> 4.0.0.beta2'
 gem 'jquery-rails'
+
+group :production do
+  gem 'unicorn', '5.4.1'
+end
