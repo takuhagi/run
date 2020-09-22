@@ -14,6 +14,15 @@ class UsersController < ApplicationController
   def create  
     @user = User.new(user_params)
   end
+
+  def index
+    @users = User.search(params[:keyword], current_user.id)
+    respond_to do |format|
+      format.html
+      format.json
+    end
+  end
+
   
     private
 
