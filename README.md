@@ -29,7 +29,7 @@ Eメール：test@run.com
 うつ病社会問題についての参考リンクページ
 https://next.rikunabi.com/tech/docs/ct_s03600.jsp?p=000307
 
-## DEMO
+## DEMO動画
 **https://i.gyazo.com/6d0cdad415c8103976ff49d99e54bea2.mp4**
 
 ## 工夫したポイント
@@ -68,7 +68,7 @@ RSpecでの単体テスト
 ユーザー間のフォロー機能
 画像を複数枚投稿できるようにする
 
-# 将来はこういうサイトを作りたいです。
+## 将来はこういうサイトを作りたいです。
 「うつ病の人にWEBで認知行動療法を提供する」
 https://u2plus.jp/pages/6-message
 
