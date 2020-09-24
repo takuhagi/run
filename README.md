@@ -25,11 +25,12 @@ Eメール：test@run.com
 母、兄共に精神病を持ったことが原体験で「脳と心」に関係する社会課題解決がしたい。
 
 特にうつ病は日本の大きな社会問題なので少しでも解決の一助となりたい。
+
 うつ病社会問題についての参考リンクページ
 https://next.rikunabi.com/tech/docs/ct_s03600.jsp?p=000307
 
-## DEMO(gifで動画や写真を貼って、ビューのイメージを掴んでもらいます)
-　⇒特に、デプロイがまだできていない場合はDEMOをつけることで見た目を企業側に伝えることができます。
+## DEMO
+<a href="https://gyazo.com/6d0cdad415c8103976ff49d99e54bea2"><video alt="Video from Gyazo" width="1000" autoplay muted loop playsinline controls><source src="https://i.gyazo.com/6d0cdad415c8103976ff49d99e54bea2.mp4" type="video/mp4" /></video></a>
 
 ## 工夫したポイント
 新規登録機能
