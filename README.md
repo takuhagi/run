@@ -30,7 +30,7 @@ Eメール：test@run.com
 https://next.rikunabi.com/tech/docs/ct_s03600.jsp?p=000307
 
 ## DEMO
-<a href="https://gyazo.com/6d0cdad415c8103976ff49d99e54bea2"><video alt="Video from Gyazo" width="1000" autoplay muted loop playsinline controls><source src="https://i.gyazo.com/6d0cdad415c8103976ff49d99e54bea2.mp4" type="video/mp4" /></video></a>
+**https://i.gyazo.com/6d0cdad415c8103976ff49d99e54bea2.mp4**
 
 ## 工夫したポイント
 新規登録機能
