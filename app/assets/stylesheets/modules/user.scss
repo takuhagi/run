@@ -1,14 +1,17 @@
+body,html{
+  background-image : url(https://images.unsplash.com/photo-1495898969439-a2a84bea6a22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80);
+  height:100vh;
+  width:100vh;
+  background-size: cover;
+  background-position: center center;
+}
+
 .AccountPage {
   width: 980px;
-  margin: 60px auto;
-  padding: 60px;
-  background-color: #fff;
-  border: 1px solid #ddd;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
-  background-image : url(https://images.unsplash.com/photo-1495898969439-a2a84bea6a22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80);
-  background-size: cover;
+ 
 }
 
 
@@ -17,7 +20,6 @@
   width: 50%;
   font-size: 14px;
   font-weight: 200;
-
   h2 {
     margin-bottom: 10px;
     letter-spacing: 3px;
@@ -131,12 +133,12 @@
   font-size:20px;
   margin: 20px 20px;
   padding: 20px 20px;
-  color:black;
-  background-color:#FAFAD2;
-  font-family: しまなみ;
+  color:#fff;
+  font-family: 'Sacramento', cursive;
+  @import url('https://fonts.googleapis.com/css?family=Sacramento');
   letter-spacing: 0.05em;
   line-height: 2.5;
   border-radius: 4px;
   font-weight: bold;
-  border: 5px solid #38f075;
+
   }

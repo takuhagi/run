@@ -10,8 +10,6 @@
   color:#ffffff;
   justify-content: center;
   align-items: center;
-
-    
     &__user__name{
       background-color:greenyellow;
       height:100px;
@@ -22,13 +20,12 @@
       align-items: center;
       
 
-      .side_bar__list{
+    .side_bar__list{
     background-color :greenyellow;
     width: 260px;
     height: 20px;
     display: flex;
     justify-content: space-between;
-    
       }
       .side_bar__list__name{
         display: flex;
@@ -72,7 +69,6 @@
             width:220px;
             height:15px;
             text-decoration: 1px solid #38f075;
-            
             }
           &__message{
             padding:0px 20px 40px 20px;
@@ -84,7 +80,6 @@
           a{
             color:#38f075;
             text-decoration: none;
-            
           }
          }
       }
@@ -95,7 +90,6 @@
     align-items: center;
     flex-direction: column;
     width: calc( 100vw - 300px );
-  
     &__group__info{
         height:100px;
         background-color:#ffffff;

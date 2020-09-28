@@ -12,9 +12,11 @@ class User < ApplicationRecord
   has_many :tweets
   has_many :comments  # commentsテーブルとのアソシエーション
 
+
   def self.search(input, id)
     return nil if input == ""
     User.where(['name LIKE ?', "%#{input}%"] ).where.not(id: id).limit(10)
   end
 
+  validates :name, presence: true, uniqueness: true
 end
