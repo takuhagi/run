@@ -3,64 +3,70 @@
 }
 .wrapper{
   display: flex;
-}
+}  
+
 .side_bar{
-  width:300px;
-  background-color: greenyellow;
+  width: 400px;
+  background-color:#fff;
   color:#ffffff;
-  justify-content: center;
-  align-items: center;
     &__user__name{
       background-color:greenyellow;
       height:100px;
-      font-size: 16px;
-      padding: 0px 20px;
-      justify-content: center;
+      font-size: 40px;
       display: flex;
+      justify-content: center;
       align-items: center;
-      
-
-    .side_bar__list{
-    background-color :greenyellow;
-    width: 260px;
-    height: 20px;
-    display: flex;
-    justify-content: space-between;
-      }
       .side_bar__list__name{
-        display: flex;
-        justify-content: flex-start;
+        height:70px;
         color:black;
+      }
+    }  
+    .side_bar__icon{
+      width: 400px;
+      height: 330px;
+      display: flex;
+      justify-self:center;
+      align-items:center;
+      flex-direction:column;
+      background-color:#00FFCC;
+      color: #ffffff;
+      font-size:23px;
+      &__group{
         
       }
-      .side_bar__icon{
-        width: 60px;
-        display: flex;
-        justify-content: flex-end;
-        color: #ffffff;
-       .edit{ 
-        color: #ffffff;
-        margin: 0px 0px 0px 5px;
-       }
-       .fas{
-        color: #ffffff;
-        margin: 0px 0px 0px 5px;
-        
-       }
-       .running{
-        color: #ffffff;
-        margin: 0px 0px 0px 5px;
-       }
 
+      &__edit{
+       margin-top: 7px; 
       }
+
+      &__runpost{
+        margin-top: 7px; 
+      }
+
+      &__index{
+        margin-top: 7px; 
+      }
+    
+      a {
+        color:#fff;
+      }
+    }
+    .side_bar__group{
+      width: 400px;
+      height: 40px;
+      color: #38f075;
+      display: flex;
+      justify-self:center;
+      align-items:center;
+      border-bottom:solid 3px #38f075;
+      font-weight: bold;
     }
       &__group__list{
         background-color:#ffffff;
-        height:calc(100vh - 100px);
+        height:calc(100vh - 300px);
         justify-content: flex-start;
         color: #ffffff bold;
         overflow:scroll;
-        
         .group{
           color: black bold;
           &__name{
@@ -68,7 +74,7 @@
             font-size: 15px black;
             width:220px;
             height:15px;
-            text-decoration: 1px solid #38f075;
+            
             }
           &__message{
             padding:0px 20px 40px 20px;
@@ -89,7 +95,8 @@
     justify-self:center;
     align-items: center;
     flex-direction: column;
-    width: calc( 100vw - 300px );
+    width: calc( 100vw - 400px );
+    height: 100%;
     &__group__info{
         height:100px;
         background-color:#ffffff;
@@ -126,12 +133,13 @@
         }
     }
       .main_chat__message__list{
+          height: 100vh;
           background-color:#fafafa;
-          height:calc(100vh - 190px);
           padding:35px 40px 0;
           overflow:scroll;
           background-image : url(https://images.pexels.com/photos/694587/pexels-photo-694587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
           background-size: cover;
+          
           .message__box{
             margin-bottom:46px;
           }

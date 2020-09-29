@@ -1,3 +1,11 @@
+.Header
+  .Header__title
+    %h1 Run!
+    %h5 
+    = link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'Button'
+    = link_to "トップページに戻る", :back, class: 'Button'
+
+
 .contents.row
   .container
     %h3 編集する
@@ -6,3 +14,7 @@
       = form.text_field :image, placeholder: "画像URL"
       = form.text_area :text, placeholder: "場所　距離　時間　感想　etc..", rows: "20"
       = form.submit "送信"
+
+.Footer
+  .Copyright
+    Copyright © 2020 Run!, All Rights Reserved.

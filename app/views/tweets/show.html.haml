@@ -1,3 +1,12 @@
+.Header
+  .Header__title
+    %h1 Run!
+    %h5 
+    = link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'Button'
+    = link_to "トップページに戻る", :back, class: 'Button'
+
+
+
 .contents.row
   .content.post{style: "background-image: url(#{@tweet.image});"}
     .more
@@ -10,3 +19,7 @@
     %p= @tweet.text
     %span.name
       = @tweet.name
+
+.Footer
+  .Copyright
+    Copyright © 2020 Run!, All Rights Reserved.

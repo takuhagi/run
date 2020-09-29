@@ -4,14 +4,3 @@
     %h5 
     = link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'Button'
     = link_to "トップページに戻る", :back, class: 'Button'
-
-
-.contents.row
-  .success
-    %h3 投稿が完了しました。
-    = link_to tweets_path, method: :get do
-      投稿一覧に戻る
-
-.Footer
-  .Copyright
-    Copyright © 2020 Run!, All Rights Reserved.

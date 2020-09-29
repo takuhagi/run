@@ -1,3 +1,12 @@
+.Header
+  .Header__title
+    %h1 Run!
+    %h5 
+    = link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'Button'
+    = link_to "トップページに戻る", :back, class: 'Button'
+
+
+
 .AccountPage
   .AccountPage__title
     %h2 Log in
@@ -20,7 +29,6 @@
           = f.submit "Log in", class: 'Button UserButton'
 
 .Introduction
-  
   このサイトは「メンタルは明るく、フィジカルは健やかに！」を実現するためにランニング記録を共有しメンバーとチャットできるサイトです。
   
   ひとは、ひとの人生に触れることで回復すると信じています。
@@ -33,3 +41,7 @@
   
   さあ、アプリでフィットネス習慣、今すぐ始めましょう！
   
+.Footer
+  .Copyright
+    Copyright © 2020 Run!, All Rights Reserved.
+ 

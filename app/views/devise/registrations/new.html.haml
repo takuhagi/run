@@ -1,6 +1,14 @@
+.Header
+  .Header__title
+    %h1 Run!
+    %h5 
+    = link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'Button'
+    = link_to "トップページに戻る", :back, class: 'Button'
+
+
+
 .AccountPage
   = render 'layouts/notifications'
-    %video{autoplay: "", loop: "", muted: "", src: "Mongolia.mp4"}
   .AccountPage__title
     %h2 Create Account
     %h5 新規アカウントの作成
@@ -31,3 +39,8 @@
           = f.password_field :password_confirmation, autocomplete: "off"
       .actions
         = f.submit "Create Account", class: 'Button UserButton'
+
+.Footer
+  .Copyright
+    Copyright © 2020 Run!, All Rights Reserved.
+ 

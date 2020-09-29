@@ -1,19 +1,29 @@
 .side_bar
   .side_bar__user__name
-    .side_bar__list
-      .side_bar__list__name
-        = current_user.name
-      .side_bar__icon 
-        = link_to new_group_path, class:"edit" do
-          = icon('fas','edit')
-        = link_to "#", class:"edit" do
-          = link_to edit_user_path(current_user.id) do
-            = icon('fas','cog')
-        = link_to new_tweet_path(current_user.id) do
-          = icon('fas','running')  
-        = link_to tweets_path(current_user.id) do
-          = icon('fas','bars')          
-            
+    .side_bar__list__name
+      = current_user.name
+  .side_bar__icon 
+    以下の手順でアイコンをクリック！
+    .side_bar__icon__runpost
+      ①ランニング記録投稿をする
+    = link_to new_tweet_path(current_user.id) do
+      = icon('fas','running') 
+    .side_bar__icon__index
+      ②投稿を一覧表示する
+    = link_to tweets_path(current_user.id) do
+      = icon('fas','bars')
+    .side_bar__icon__group
+      ③グループを作成編集する
+    = link_to new_group_path, class:"edit" do
+      = icon('fas','edit')         
+    .side_bar__icon__edit
+      ※アカウントの編集をする
+    = link_to "#", class:"edit" do
+      = link_to edit_user_path(current_user.id) do
+        = icon('fas','cog')     
+  
+  .side_bar__group
+    グループ名一覧
   .side_bar__group__list
     - current_user.groups.each do |group|
       .group 
