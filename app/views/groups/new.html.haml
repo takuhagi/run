@@ -6,9 +6,11 @@
     = link_to "トップページに戻る", :back, class: 'Button'
 
 
-.SettingGroupForm
-  %h1 新規チャットグループ
-  = render partial: 'form', locals: { group: @group }
+.SettingGroup
+  .SettingGroup__Form
+    %h1 チャットグループ編集
+    = render partial: 'form', locals: { group: @group }
+    .SettingGroup__Form__field
 
 .Footer
   .Copyright

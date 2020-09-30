@@ -5,10 +5,10 @@
     = link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'Button'
     = link_to "トップページに戻る", :back, class: 'Button'
 
-
-.SettingGroupForm
+.SettingGroup__Form
   %h1 チャットグループ編集
   = render partial: 'form', locals: { group: @group }
+.SettingGroupForm__field
 
 .Footer
   .Copyright

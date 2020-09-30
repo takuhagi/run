@@ -1,17 +1,19 @@
 * {
   box-sizing: border-box;
 }
-
-body,
-html {
+html,
+body{
   width: 100%;
-  height: 100%;
+  position: relative;/*←相対位置*/
   background-color: #fff;
   display:flex;
   justify-self:center;
   align-items: center;
   flex-direction: column;
 } 
+
+
+
 .Header{
   color:#fff;
   display: flex;
@@ -33,6 +35,10 @@ html {
     h5 {
       padding:0px 30px;
     }
+    a{
+      color: #fff;
+      text-decoration: none;
+    }
     a.Button {
       padding:0px 30px;
       color: #fff;
@@ -45,7 +51,6 @@ html {
 .contents.row{
   background-color:#fff;
   width:100%;
-  height:100%;
   .content.post{
     margin: 50px 30px;
     padding: 50px 30px;
@@ -119,6 +124,8 @@ html {
     background-image : url(https://images.unsplash.com/photo-1421990535576-b336c6b1c8a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80);
     background-size: cover;
     form{ 
+      width:100%;
+      height:100vh;
       display: flex;
       justify-self:center;
       align-items: center;
@@ -153,13 +160,15 @@ html {
 }
 
 .Footer{
+    height:60px ;
     width: 100%;
     background-color: #06eeee;
     text-align: center;
     padding: 30px, 0;
-    position: absolute;
-    bottom: 0;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
   .Copyright {
+    width: 100%;
     height:60px;
     color: #eee;
     background-color:#06eeee;;
@@ -168,5 +177,6 @@ html {
     font-weight: bold;
     padding: 1rem;
     margin-bottom: 0;
+    
   }
 }

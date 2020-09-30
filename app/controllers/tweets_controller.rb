@@ -36,9 +36,9 @@ class TweetsController < ApplicationController
     params.require(:tweet).permit(:name, :image, :text).merge(user_id: current_user.id)
   end
 
-  def set_tweet
-    @tweet = Tweet.find(params[:id])
-  end
+  # def set_tweet
+  #   @tweet = Tweet.find(params[:id])
+  # end
 
 end
 
