@@ -10,7 +10,7 @@
   background-color:#fff;
   color:#ffffff;
     &__user__name{
-      background-color:greenyellow;
+      background-color:#FFFF00;
       height:100px;
       font-size: 40px;
       display: flex;
@@ -50,14 +50,18 @@
       a {
         color:#fff;
       }
+      a:hover{
+        color:#FFFF00;
+      }
     }
     .side_bar__group{
       width: 400px;
       height: 40px;
-      color: #38f075;
+      color: black;
       display: flex;
       justify-self:center;
       align-items:center;
+      background-color:#38f075 ;
       border:solid 3px #38f075;
       font-weight: bold;
     }
@@ -84,7 +88,7 @@
             text-decoration: 1px solid #38f075;
           }
           a{
-            color:#38f075;
+            color:black;
             text-decoration: none;
           }
          }

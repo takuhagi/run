@@ -19,7 +19,7 @@ html {
   background-color: #06eeee;
   height: 100px;
   width: 100%;
-  .Header__title{
+  &__title{
     height: 100px;
     width: 100%;
     display: flex;
@@ -33,11 +33,13 @@ html {
     h5 {
       padding:0px 30px;
     }
-   a.Button {
-    padding:0px 30px;
-    color: #fff;
-   }
-
+    a.Button {
+      padding:0px 30px;
+      color: #fff;
+    }
+    a:hover {
+      color: #FFFF00;
+    }
   }  
 } 
 .contents.row{
@@ -124,7 +126,7 @@ html {
       input {
         width: 500px;
         height: 50px;
-        margin: 30px 15px 30px 15px;
+        margin: 15px 15px;
         padding: 10px;
         border: 1px solid #D8D8D8;
         border-radius: 5px;
@@ -146,7 +148,7 @@ html {
   margin: 0 0 20px;
   text-align: center;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
 
