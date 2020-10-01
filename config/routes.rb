@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :edit, :update]
   resources :tweets
   resources :groups, only: [:new, :create, :edit, :update] do
-  resources :messages, only: [:index, :create]
+    resources :messages, only: [:index, :create]
     
 #追加
     namespace :api do

@@ -10,8 +10,7 @@ class User < ApplicationRecord
   
   # pictweet
   has_many :tweets
-  has_many :comments  # commentsテーブルとのアソシエーション
-
+  
 
   def self.search(input, id)
     return nil if input == ""
