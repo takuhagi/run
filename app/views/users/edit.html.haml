@@ -3,8 +3,7 @@
     %h1 Run!
     %h5 
     = link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'Button'
-    = link_to "トップページに戻る", :back, class: 'Button'
-
+    = link_to "トップページに戻る", root_path, method: :get
 
 
 .AccountPage

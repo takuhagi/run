@@ -3,14 +3,12 @@
     %h1 Run!
     %h5 
     = link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'Button'
-    = link_to "トップページに戻る", :back, class: 'Button'
+    = link_to "トップページに戻る", root_path, method: :get
 
 
-.SettingGroup
-  .SettingGroup__Form
-    %h1 チャットグループ編集
-    = render partial: 'form', locals: { group: @group }
-    .SettingGroup__Form__field
+.SettingGroupForm
+  %h1 チャットグループ編集
+  = render partial: 'form', locals: { group: @group }
 
 .Footer
   .Copyright
