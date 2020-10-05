@@ -15,8 +15,9 @@
 ### **http://54.168.214.241/**  
 
 テストアカウント
-Eメール：test@run.com
-パスワード：１２３４５６７８
+Name testuser
+Email  test@run.com
+パスワード　12345678(小文字）
 
 ##  制作背景
 「うつ病などの精神病や生活習慣病防止の為のランニング習慣化と孤独解消アプリ」
@@ -30,7 +31,7 @@ Eメール：test@run.com
 https://next.rikunabi.com/tech/docs/ct_s03600.jsp?p=000307
 
 ## DEMO動画
-**https://i.gyazo.com/6d0cdad415c8103976ff49d99e54bea2.mp4**
+**https://i.gyazo.com/d421df83033aaa916653181f954e10bc.mp4**
 
 ## 工夫したポイント
 新規登録機能
