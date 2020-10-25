@@ -52,6 +52,7 @@ body{
 } 
 .contents.row{
   background-color:#fff;
+  height:100%;
   width:100%;
   .content.post{
     margin: 50px 30px;
@@ -143,7 +144,6 @@ body{
       textarea {
         width: calc( 100vw - 300px );
         height: 300px;
-        margin: 30px 15px 30px 15px;
         padding: 10px;
         border: 1px solid #D8D8D8;
         border-radius: 5px;
